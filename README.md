@@ -28,7 +28,9 @@ This project demonstrates infinite scrolling using React functional components a
    cd infinite-scroll-app
 
 2. Install dependencies
+   ```bash
   npm install
 
 3. Start the development server
+    ```bash
   npm run dev
