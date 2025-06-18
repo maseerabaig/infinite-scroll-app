@@ -1,12 +1,34 @@
-# React + Vite
+Infinite Scrolling React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ Project Objective
 
-Currently, two official plugins are available:
+This project demonstrates infinite scrolling using React functional components and the DummyJSON API. As the user scrolls down, more products are fetched and displayed automatically using the Intersection Observer API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+# Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Infinite scroll using `IntersectionObserver`
+- Fetch products from [https://dummyjson.com/products](https://dummyjson.com/products)
+- Axios for API requests
+- Responsive grid layout for product cards
+- Loading indicator while data is being fetched
+
+# Tech Stack
+
+- React (Vite)
+- Axios
+- CSS for styling
+
+
+# How to Run Locally
+
+1. clone the repository  
+   ```bash
+   git clone https://github.com/maseerabaig/infinite-scroll-app.git
+   cd infinite-scroll-app
+
+2. Install dependencies
+  npm install
+
+3. Start the development server
+  npm run dev
